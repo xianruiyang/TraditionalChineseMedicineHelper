@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>722</width>
+    <height>510</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>药材输入</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Icon/med.ico</normaloff>Icon/med.ico</iconset>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+   <property name="text">
+    <string>名称</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="IName">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>20</y>
+     <width>631</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+   <property name="text">
+    <string>介绍</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="IIntro">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>60</y>
+     <width>631</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+   <property name="text">
+    <string>组成</string>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>180</y>
+     <width>631</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>629</width>
+      <height>229</height>
+     </rect>
+    </property>
+    <widget class="QListView" name="LCom">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>611</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="toolTipDuration">
+      <number>-1</number>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="BAdd">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>420</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+   <property name="text">
+    <string>添加组分</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BDelete">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>420</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+   <property name="text">
+    <string>删除组分</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BN">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>470</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BY">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>470</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ICom">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>420</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

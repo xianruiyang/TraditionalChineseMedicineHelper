@@ -1,0 +1,104 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>b682799a-eadd-4569-843a-82fc067dc77d</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>start.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>中药配伍决策辅助</Name>
+    <RootNamespace>中药配伍决策辅助</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.7</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="adFind.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="aiRecipe.py" />
+    <Compile Include="createRecipe.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="decide.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="find.py" />
+    <Compile Include="find_form.py" />
+    <Compile Include="medai.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="medai_form.py" />
+    <Compile Include="minePage.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="minePage_form.py" />
+    <Compile Include="mining.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="herb_input.py" />
+    <Compile Include="learn.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="learn_log.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="login.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="match_detail.py" />
+    <Compile Include="meddb.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="med_data_user.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="med_db.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="med_normal.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="merge_input.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="myfun.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="my_database.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="recipe_input.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="recipe_model.py" />
+    <Compile Include="relation_input.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="start.py" />
+    <Compile Include="test.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.7" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

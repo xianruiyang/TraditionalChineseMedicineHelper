@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>630</width>
+    <height>155</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>配伍输入</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Icon/med.ico</normaloff>Icon/med.ico</iconset>
+  </property>
+  <widget class="QPushButton" name="BY">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>110</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BN">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>110</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>19</y>
+     <width>30</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>关系</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="IMed1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>41</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>38</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>药材1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>19</y>
+     <width>38</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>药材2</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="IMed2">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>40</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="CRelation">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>40</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <item>
+    <property name="text">
+     <string>单行</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>须</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>使</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>畏</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>恶</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>反</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>杀</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
